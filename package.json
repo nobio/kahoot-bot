@@ -1,0 +1,19 @@
+{
+    "name": "kahoot-bot",
+    "version": "0.0.1",
+    "author": "Gernot H. Reichel <gernot.reichel@me.com>",
+    "private": true,
+    "scripts": {
+        "start": "node app"
+    },
+    "dependencies": {
+        "kahoot.js-updated": "*"
+    },
+    "engines": {
+        "node": "^8.9.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nobio/kahoot-bot.git"
+    }
+}
