@@ -4,7 +4,7 @@ console.log("Joining kahoot...");
 k.join(7877502 /* Or any other kahoot token */, "kahoot.js").then(() => {
 	console.log("joined quiz");
 	k.on("quizStart", quiz => {
-    	console.log("quiz "" + quiz.name + "" has started");
+    	console.log("quiz " + quiz.name + " has started");
 	});
 	k.on("question", question => {
 		console.log("Recieved a new question. waiting until it starts..");
